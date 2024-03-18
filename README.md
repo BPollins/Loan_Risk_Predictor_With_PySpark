@@ -17,8 +17,8 @@ To produce an end-to-end pipeline for predicting a loan default using PySpark
 - Final model selection
 - Hyperparameter fine-tuning
 
-#### The following information was used in analysis:
-
+#### Data:
+The following information was used in analysis:
 1. Applicant_ID: Unique identifier for each loan applicant.
 2. Annual_Income: Annual income of the loan applicant.
 3. Applicant_Age: Age of the loan applicant.
@@ -34,3 +34,17 @@ To produce an end-to-end pipeline for predicting a loan default using PySpark
 13. Loan_Default_Risk: Indicator of loan default risk, with values indicating whether the loan applicant is at risk of defaulting on the loan.
 
 The data was obtained from Kaggle datasets: https://www.kaggle.com/datasets/yaminh/applicant-details-for-loan-approve/data
+
+#### System Requirements:
+This program is created using:
+- conda 23.1.0
+- jupyter 1.0.0
+- jupyterlab 3.4.4
+- matplotlib 3.5.2
+- notebook 6.4.12
+- numpy 1.23.5
+- pandas 1.4.4
+- pyspark 3.5.1
+- pip 22.3.1
+- python 3.9.13
+- scikit-learn 1.0.2
