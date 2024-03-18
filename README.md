@@ -1,10 +1,10 @@
 # Loan_Risk_Predictor_With_PySpark
 Predicting if a customer will default on their loan based on customer data
 
-#### Goal:
+#### Goal
 To produce an end-to-end pipeline for predicting a loan default using PySpark
 
-#### Progress:
+#### Progress
 - Preliminary EDA
 - Data visualisation
 - Data preprocessing
@@ -12,12 +12,12 @@ To produce an end-to-end pipeline for predicting a loan default using PySpark
 - Predictions made and evaluated
 - Started investigation into feature reduction
 
-#### Future Work:
+#### Future Work
 - Complete investigation into feature reduction
 - Final model selection
 - Hyperparameter fine-tuning
 
-#### Data:
+#### Data
 The following information was used in analysis:
 1. Applicant_ID: Unique identifier for each loan applicant.
 2. Annual_Income: Annual income of the loan applicant.
@@ -35,7 +35,7 @@ The following information was used in analysis:
 
 The data was obtained from Kaggle datasets: https://www.kaggle.com/datasets/yaminh/applicant-details-for-loan-approve/data
 
-#### System Requirements:
+#### System Requirements
 This program is created using:
 - conda 23.1.0
 - jupyter 1.0.0
@@ -48,3 +48,4 @@ This program is created using:
 - pip 22.3.1
 - python 3.9.13
 - scikit-learn 1.0.2
+- seaborn 0.11.2
